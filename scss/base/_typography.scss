@@ -1,0 +1,34 @@
+body {
+    @apply antialiased;
+    @apply font-sans;
+    @apply leading-none;
+    @apply text-gray-700;
+}
+
+h1, h2, h3, h4 {
+    @apply leading-tight;
+}
+
+h1 { @apply text-6xl; }
+h2 { @apply text-5xl; }
+h3 { @apply text-4xl; }
+h4 { @apply text-3xl; }
+
+p, ul {
+    @apply leading-relaxed;
+}
+
+// Default vertical rhythm
+h1, h2, h3, h4, p, ul {
+    @apply mb-6;
+}
+
+// Top margins for better content flow
+p + h2,
+p + h3,
+p + h4,
+ul + h2,
+ul + h3,
+ul + h4 {
+    @apply mt-10;
+}
