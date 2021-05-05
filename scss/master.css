@@ -4,4 +4,4 @@ Author: Tim Martin
 Author URI: https://brightagency.com.au/
 Description: Custom theme designed by Bright Agency.
 Version: 0.1
-*/@tailwind base;@tailwind components;html{scroll-behavior:smooth}.container{@apply px-4;max-width:1280px}body{@apply antialiased;@apply font-sans;@apply leading-none;@apply text-gray-700}h1,h2,h3,h4{@apply leading-tight}h1{@apply text-6xl}h2{@apply text-5xl}h3{@apply text-4xl}h4{@apply text-3xl}p,ul{@apply leading-relaxed}h1,h2,h3,h4,p,ul{@apply mb-6}p+h2,p+h3,p+h4,ul+h2,ul+h3,ul+h4{@apply mt-10}@tailwind utilities
+*/@tailwind base;@tailwind components;html{scroll-behavior:smooth}.container{@apply px-4;max-width:1280px}body{@apply antialiased;@apply font-sans;@apply leading-none;@apply text-gray-700}h1,h2,h3,h4{@apply leading-tight}h1{@apply text-6xl}h2{@apply text-5xl}h3{@apply text-4xl}h4{@apply text-3xl}p,ul{@apply leading-relaxed}h1,h2,h3,h4,p,ul{@apply mb-6}p+h2,p+h3,p+h4,ul+h2,ul+h3,ul+h4{@apply mt-10}table{@apply border-collapse;@apply mb-6}table td{@apply border;@apply border-gray-400;@apply px-4;@apply py-3}@tailwind utilities

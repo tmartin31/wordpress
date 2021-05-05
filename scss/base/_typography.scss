@@ -32,3 +32,15 @@ ul + h3,
 ul + h4 {
     @apply mt-10;
 }
+
+table {
+    @apply border-collapse;
+    @apply mb-6;
+    
+    td {
+        @apply border;
+        @apply border-gray-400;
+        @apply px-4;
+        @apply py-3;
+    }
+}
