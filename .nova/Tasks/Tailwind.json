@@ -1,0 +1,9 @@
+{
+  "actions" : {
+    "build" : {
+      "enabled" : true,
+      "script" : "npx tailwind build scss\/master.css -c tailwind.config.js -o style.css"
+    }
+  },
+  "identifier" : "A470A211-19B0-46FC-B41A-5B223429CF8C"
+}
