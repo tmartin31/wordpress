@@ -23,7 +23,7 @@ module.exports = {
             center: true
         },
         fontFamily: {
-            sans: ['Operator Mono', 'sans-serif'],
+            sans: ['Overpass', 'sans-serif'],
         },
         extend: {},
     },
