@@ -1,0 +1,31 @@
+//-----------------------------------------------------
+// WordPress content areas
+//-----------------------------------------------------
+
+.prose {
+	
+	ol, ul {
+		margin-left: 20px;
+	}
+	
+	ol li {
+		list-style: decimal;
+	}
+	
+	ul li {
+		list-style: disc;
+	}
+	
+	table {
+		@apply border-collapse;
+		@apply mb-6;
+		
+		td {
+			@apply border;
+			@apply border-gray-300;
+			@apply px-4;
+			@apply py-3;
+		}
+	}
+
+}

@@ -1,23 +1,24 @@
 const colors = require('tailwindcss/colors');
 
 module.exports = {
+    darkMode: false, 
+    mode: 'jit',
+    plugins: [
+        require('@tailwindcss/forms'),
+        require('@tailwindcss/jit'),
+    ],
     purge: {
         enabled: false,
         content: ['*.php'],
     },
-    darkMode: false,
     theme: {
-        screens: {
-            'sm': {'max': '800px'},
-            'lg': '801px',
-        },              
         colors: {
-            black: '#000',
-            blue: colors.lightBlue,
-            gray: colors.coolGray,
-            pink: colors.fuchsia,
-            rose: colors.rose,
-            white: '#fff',
+            black: '#000000',
+            blue: colors.blue,
+            gray: colors.gray,
+            green: colors.green,
+            red: colors.red,
+            white: '#ffffff',
         },
         container: {
             center: true
@@ -27,5 +28,7 @@ module.exports = {
         },
         extend: {},
     },
-    variants: {},
+    variants: {
+        extend: {},
+    },
 }

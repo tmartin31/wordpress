@@ -17,6 +17,14 @@
       "oAP" : "\/.gitignore",
       "oF" : 0
     },
+    "\/.nova\/Configuration.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/.nova\/Configuration-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
     "\/.nova\/Tasks\/Tailwind.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -31,6 +39,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/404.php",
+      "oF" : 0
+    },
+    "\/favicon.ico" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/favicon.ico",
       "oF" : 0
     },
     "\/footer.php" : {
@@ -119,28 +135,6 @@
       "sC" : 1,
       "tS" : 0
     },
-    "\/node_modules" : {
-      "ft" : 65536,
-      "oA" : 2,
-      "oAP" : "\/node_modules",
-      "oF" : 0
-    },
-    "\/package-lock.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/package-lock-min.json",
-      "oF" : 0,
-      "oO" : 0,
-      "oS" : 1
-    },
-    "\/package.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/package-min.json",
-      "oF" : 0,
-      "oO" : 0,
-      "oS" : 1
-    },
     "\/page.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -162,7 +156,7 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/scss\/base\/_layout.scss" : {
+    "\/scss\/base\/_form.scss" : {
       "aP" : 1,
       "bl" : 0,
       "dP" : 10,
@@ -170,7 +164,21 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/scss\/base\/_layout.css",
+      "oAP" : "\/scss\/base\/_form.css",
+      "oF" : 0,
+      "oS" : 3,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/scss\/base\/_prose.scss" : {
+      "aP" : 1,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/scss\/base\/_prose.css",
       "oF" : 0,
       "oS" : 3,
       "pg" : 0,

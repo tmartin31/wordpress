@@ -6,13 +6,11 @@ Description: Custom theme designed by Bright Agency.
 Version: 0.1
 */
 
-// Tailwind
 @tailwind base;
 @tailwind components;
 
-// Base
-@import "base/layout";
+@import "base/form";
+@import "base/prose";
 @import "base/typography";
 
-// Tailwind
 @tailwind utilities;
