@@ -1,14 +1,11 @@
 const colors = require('tailwindcss/colors');
 
 module.exports = {
-    darkMode: false,
-    plugins: [
-        require('@tailwindcss/forms'),
-    ],
     purge: {
         enabled: false,
         content: ['*.php'],
     },
+    darkMode: false,
     theme: {
         colors: {
             black: '#000000',
@@ -19,7 +16,7 @@ module.exports = {
             white: '#ffffff',
         },
         container: {
-            center: true
+            center: true,
         },
         fontFamily: {
             sans: ['Overpass', 'sans-serif'],
@@ -29,4 +26,5 @@ module.exports = {
     variants: {
         extend: {},
     },
+    plugins: [],
 }
