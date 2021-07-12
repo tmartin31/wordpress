@@ -1,11 +1,9 @@
 const colors = require('tailwindcss/colors');
 
 module.exports = {
-    darkMode: false, 
-    mode: 'jit',
+    darkMode: false,
     plugins: [
         require('@tailwindcss/forms'),
-        require('@tailwindcss/jit'),
     ],
     purge: {
         enabled: false,
