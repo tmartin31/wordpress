@@ -1,0 +1,26 @@
+/*!
+Theme Name: Bright
+Author: Tim Martin
+Author URI: https://brightagency.com.au/
+Description: Custom theme designed by Bright Agency.
+Version: 1.0
+*/
+
+@tailwind base;
+@tailwind components;
+
+@import "base/form";
+@import "base/layout";
+@import "base/prose";
+@import "base/typography";
+
+// Modules: prefix m-
+@import "modules/button";
+
+// Components: prefix c-
+// @import "components/component";
+
+// Vendor
+// @import "vendor/gravity";
+
+@tailwind utilities;
