@@ -1,5 +1,21 @@
-.overlay { background: linear-gradient(0deg, #00000088 30%, #ffffff44 100%); }
-.text-balance { text-wrap: balance; }
+//-----------------------------------------------------
+// 1. Helpers
+//-----------------------------------------------------
 
-// Future
+// READABLE TEXT ON BACKGROUND IMAGES
+// .overlay { background: linear-gradient(0deg, #00000088 30%, #ffffff44 100%); }
+
+// BALANCE TEXT EVENLY
+// .text-balance { text-wrap: balance; }
+
+//-----------------------------------------------------
+// 2. Future ideas
+//-----------------------------------------------------
+
+// MASONRY GRID
 // .grid-masonry { grid-template-rows: masonry; }
+
+// SCROLL SNAPPING
+// parent: overflow-auto snap-mandatory snap-x
+// children: flex-shrink-0 snap-start
+
