@@ -30,7 +30,7 @@ function tm31_enqueue_assets()
     wp_enqueue_style( 'app', get_template_directory_uri() . '/style.css', null, '0.1' );
 
     // JavaScript
-    wp_enqueue_script( 'alpine', 'https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.4.1/cdn.min.js', array(), '3.4.1', true );
+    wp_enqueue_script( 'alpine', 'https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.13.10/cdn.min.js', array(), '3.13.10', true );
     wp_enqueue_script( 'app', get_template_directory_uri() . '/js/app.min.js', array(), '0.1', true );
 }
 add_action( 'wp_enqueue_scripts', 'tm31_enqueue_assets' );
