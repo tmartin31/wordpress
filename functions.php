@@ -24,7 +24,7 @@ function tm31_enqueue_assets()
 {
     // jQuery
     if ( !is_admin() ) { wp_deregister_script( 'jquery' ); }
-    // wp_enqueue_script( 'jquery', 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js', array(), '3.6.0', true );
+    // wp_enqueue_script( 'jquery', 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js', array(), '3.7.1', true );
 
     // CSS
     wp_enqueue_style( 'app', get_template_directory_uri() . '/style.css', null, '0.1' );
