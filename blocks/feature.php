@@ -4,8 +4,8 @@
 // ACF fields
 //-----------------------------------------------------
 
-$background = get_field( 'background' );
-$tint = get_field( 'tint' );
+$background = wp_kses_post( get_field( 'background' ) );
+$tint = wp_kses_post( get_field( 'tint' ) );
 
 ?>
 		
