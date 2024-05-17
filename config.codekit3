@@ -7,7 +7,7 @@
       "uuidString" : "014080E7-2F31-4A4F-94BC-2DC69CE87566"
     }
   ],
-  "creatorBuild" : "34518",
+  "creatorBuild" : "34576",
   "files" : {
     "\/.gitignore" : {
       "cB" : 0,
@@ -119,6 +119,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/includes\/helpers.php",
+      "oF" : 0
+    },
+    "\/includes\/mail.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/includes\/mail.php",
       "oF" : 0
     },
     "\/includes\/security.php" : {
@@ -273,6 +281,21 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/scss\/base\/_helpers.scss" : {
+      "aP" : 1,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/scss\/base\/_helpers.css",
+      "oF" : 0,
+      "oS" : 3,
+      "pg" : 0,
+      "sct" : 1
+    },
     "\/scss\/base\/_layout.scss" : {
       "aP" : 1,
       "bl" : 0,
@@ -360,6 +383,21 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/scss\/vendor\/_alpine.scss" : {
+      "aP" : 1,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/scss\/vendor\/_alpine.css",
+      "oF" : 0,
+      "oS" : 3,
+      "pg" : 0,
+      "sct" : 1
+    },
     "\/scss\/vendor\/_gravity.scss" : {
       "aP" : 1,
       "bl" : 0,
@@ -381,6 +419,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/single.php",
+      "oF" : 0
+    },
+    "\/snippets\/rest-api.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/snippets\/rest-api.php",
       "oF" : 0
     },
     "\/style.css" : {
@@ -1244,9 +1290,6 @@
       "no-new-native-nonconstructor" : {
         "active" : 0
       },
-      "no-new-object" : {
-        "active" : 0
-      },
       "no-new-symbol" : {
         "active" : 1
       },
@@ -1258,6 +1301,9 @@
       },
       "no-obj-calls" : {
         "active" : 1
+      },
+      "no-object-constructor" : {
+        "active" : 0
       },
       "no-octal" : {
         "active" : 1

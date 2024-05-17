@@ -14,13 +14,10 @@ Version: 1.0
 @import "base/prose";
 @import "base/typography";
 
-// Modules: prefix m-
+// Modules
 @import "modules/button";
 
-// Components: prefix c-
-// @import "components/component";
-
 // Vendor
-// @import "vendor/gravity";
+@import "vendor/alpine";
 
 @tailwind utilities;
