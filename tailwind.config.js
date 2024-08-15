@@ -1,7 +1,7 @@
 const colors = require('tailwindcss/colors');
 
 module.exports = {
-	content: ['*.php'],
+	content: ['*.php', 'parts/*.php'],
 	theme: {
 		colors: {
 			black: '#000',

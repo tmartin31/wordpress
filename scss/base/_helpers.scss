@@ -2,10 +2,10 @@
 // 1. Helpers
 //-----------------------------------------------------
 
-// READABLE TEXT ON BACKGROUND IMAGES
+// Readable text on background images
 .overlay { background: linear-gradient(0deg, #00000088 30%, #ffffff44 100%); }
 
-// GRADIENT TEXT
+// Gradient text
 .text-gradient {
 	@apply bg-gradient-to-r from-blue via-blue to-blue;
 	@apply bg-clip-text text-transparent;

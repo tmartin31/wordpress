@@ -266,21 +266,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/scss\/base\/_form.scss" : {
-      "aP" : 1,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/scss\/base\/_form.css",
-      "oF" : 0,
-      "oS" : 3,
-      "pg" : 0,
-      "sct" : 1
-    },
     "\/scss\/base\/_helpers.scss" : {
       "aP" : 1,
       "bl" : 0,
@@ -427,6 +412,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/snippets\/rest-api.php",
+      "oF" : 0
+    },
+    "\/snippets\/wysiwyg-colours.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/snippets\/wysiwyg-colours.php",
       "oF" : 0
     },
     "\/style.css" : {

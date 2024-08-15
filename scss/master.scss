@@ -9,7 +9,6 @@ Version: 1.0
 @tailwind base;
 @tailwind components;
 
-@import "base/form";
 @import "base/layout";
 @import "base/prose";
 @import "base/typography";
@@ -19,5 +18,6 @@ Version: 1.0
 
 // Vendor
 @import "vendor/alpine";
+@import "vendor/gravity";
 
 @tailwind utilities;

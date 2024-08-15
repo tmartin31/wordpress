@@ -16,6 +16,13 @@
 		list-style: disc;
 	}
 	
+	// Vertical rhythm
+	h1, h2, h3, h4, ol, p, ul {
+		&:not(:last-child) {
+			@apply mb-6;
+		}
+	}
+	
 	table {
 		@apply border-collapse;
 		@apply mb-6;
@@ -26,13 +33,6 @@
 			@apply px-4;
 			@apply py-3;
 		}
-	}
-	
-	// Vertical rhythm
-	h1, h2, h3, h4, ol, p, ul {
-    	&:not(:last-child) {
-        	@apply mb-6;
-    	}
 	}
 
 }
