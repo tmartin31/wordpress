@@ -1,0 +1,22 @@
+.prose {
+	
+	// Vertical rhythm
+	h1, h2, h3, h4, h5, ol, p, ul {
+		&:not(:last-child) {
+			@apply mb-6;
+		}
+	}
+	
+	ol, ul {
+		margin-left: 20px;
+	}
+	
+	ol li {
+		list-style: decimal;
+	}
+	
+	ul li {
+		list-style: disc;
+	}
+
+}

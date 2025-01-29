@@ -1,0 +1,28 @@
+/*!
+Theme Name: Bright
+Author: Tim Martin
+Author URI: https://brightagency.com.au/
+Description: Custom theme designed by Bright Agency.
+Version: 1.0
+*/
+
+@import "tailwindcss";
+
+@theme {
+	--color-black: #000;
+	--color-shade: #f7f7f7;
+	--color-white: #fff;
+	
+	--font-sans: 'Inter';
+	--font-serif: 'Sora';
+}
+
+@import "./modules/button.css";
+
+@import "./parts/fonts.css";
+@import "./parts/layout.css";
+@import "./parts/prose.css";
+@import "./parts/typography.css";
+
+@import "./vendor/alpine.css";
+@import "./vendor/gravity.css";

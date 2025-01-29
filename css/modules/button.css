@@ -1,0 +1,10 @@
+.button {
+	@apply cursor-pointer;
+	@apply font-semibold;
+	@apply inline-block;
+	@apply min-w-64;
+	@apply px-6 py-4;
+	@apply rounded-full;
+	@apply text-center;
+	@apply text-white;
+}
