@@ -1,0 +1,7 @@
+iframe[src*="youtube.com"],
+iframe[src*="youtu.be"],
+video {
+	@apply w-full;
+	@apply h-auto;
+	@apply aspect-video;
+}
